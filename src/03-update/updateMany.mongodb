@@ -1,0 +1,13 @@
+use("sample_training");
+
+db.zips.find({customField: "custom value"}).count()
+// db.zips.updateMany(
+//     //Query
+//     {city: "NEW YORK"},
+//     //change with operators
+//     {
+//         $set:{
+//             customField: "custom value"
+//         }
+//     }
+// )

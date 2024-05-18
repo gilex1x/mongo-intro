@@ -1,0 +1,3 @@
+use("sample_training")
+
+db.companies.insertMany([{name:"BegreenCol"},{name:"Domocol"},{name:"POLLABMARK"}])
