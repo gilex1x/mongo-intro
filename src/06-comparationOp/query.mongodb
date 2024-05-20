@@ -1,0 +1,7 @@
+use("sample_training");
+
+db.zips.find()
+
+//$eq
+// db.zips.findOne({city: {$eq: "ALPINE"}})
+db.zips.findOne({city:{$ne: "ALPINE"}})
